@@ -51,8 +51,7 @@
   },
   "devDependencies": {
     "eslint": "^2.2.0",
-    "jscs": "~2.11.0",
-    "basisjs": "~1.10.0"
+    "jscs": "~2.11.0"
   },
   "files": [
     "bin",
