@@ -26,9 +26,11 @@
     }
   },
   "scripts": {
+    "build:devtool": "node node_modules/basisjs-tools-build/bin/build -c lib/server/modules/devtool/client/basis.config",
     "codestyle": "jscs lib && eslint lib",
     "test-all": "npm run test-code && npm test",
-    "travis": "npm run test-all"
+    "travis": "npm run test-all",
+    "prepublish": "npm run build:devtool"
   },
   "dependencies": {
     "basisjs-tools-config": "^1.1.0",
@@ -44,7 +46,8 @@
     "socket.io": "~1.5.1",
     "socket.io-client": "~1.5.1",
     "http-proxy": "0.10.4",
-    "mime": "1.3.4"
+    "mime": "1.3.4",
+    "rempl": "lahmatiy/rempl"
   },
   "devDependencies": {
     "eslint": "^2.2.0",
