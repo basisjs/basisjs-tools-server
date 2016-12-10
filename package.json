@@ -45,7 +45,7 @@
     "socket.io-client": "~1.5.1",
     "http-proxy": "0.10.4",
     "mime": "1.3.4",
-    "rempl": "rempl/rempl"
+    "rempl": "1.0.0-alpha3"
   },
   "devDependencies": {
     "eslint": "^2.2.0",
