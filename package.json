@@ -26,11 +26,9 @@
     }
   },
   "scripts": {
-    "build:devtool": "node node_modules/basisjs-tools-build/bin/build -c lib/modules/devtool/client/basis.config",
     "codestyle": "jscs lib && eslint lib",
     "test-all": "npm run test-code && npm test",
-    "travis": "npm run test-all",
-    "prepublish": "npm run build:devtool"
+    "travis": "npm run test-all"
   },
   "dependencies": {
     "basisjs-tools-config": "^1.1.0",
