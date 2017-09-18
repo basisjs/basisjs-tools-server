@@ -48,7 +48,7 @@
     "minimatch": "~3.0.2",
     "open-in-editor": "^2.1.0",
     "pem": "^1.9.4",
-    "rempl": "1.0.0-alpha10",
+    "rempl": "1.0.0-alpha11",
     "resolve": "1.1.7",
     "socket.io": "~1.7.3",
     "socket.io-client": "~1.7.3",
