@@ -1,3 +1,8 @@
+## 1.0.1 (September 18, 2017)
+
+- Improved main module to make its import chepear when external module imports CLI command only
+- Fixed basisjs devpanel exception by updating `rempl` to `1.0.0-alpha15` (@istrel, #2)
+
 ## 1.0.0 (September 6, 2017)
 
 - Extracted to separate repo/module from [basisjs-tools](https://github.com/basisjs/basisjs-tools)
@@ -12,4 +17,4 @@
     - Removed `--inspect` option
     - Minor fixes and imrovements
 
-> Warning! For now `/basisjs-tools/devpanel` doesn't work for `basis.js` (1.11.0 at the moment), since basis's devpanel should be migrated to rempl.
+> Warning! For now `/basisjs-tools/devpanel` doesn't work for `basis.js` (1.11.0 at the moment), since basis's devpanel should migrate to rempl.
