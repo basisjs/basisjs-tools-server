@@ -1,4 +1,4 @@
-## next
+## 1.0.2 (August 1, 2021)
 
 - Bumped `basisjs-tools-ast` to `1.6.2` to fix HTML serialization
 
