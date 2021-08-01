@@ -1,3 +1,7 @@
+## next
+
+- Bumped `basisjs-tools-ast` to `1.6.2` to fix HTML serialization
+
 ## 1.0.1 (September 18, 2017)
 
 - Improved main module to make its import chepear when external module imports CLI command only
